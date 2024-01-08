@@ -1,0 +1,47 @@
+html{
+    text-align: center;
+}
+
+th, td, tbody{
+    text-align: center;
+    width: 200px;
+}
+
+h2{
+    text-align: left;
+    color:palevioletred;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.heading{
+    border-bottom: 3px solid darkslategray;
+    color: pink;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: gray;
+}
+
+.property{
+    border-bottom: 1px solid darkslategray;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: honeydew;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+td{
+    border-bottom: 1px solid darkslategray;
+}
+
+.val{
+    font-style: italic;
+    color: orchid;
+    background-color: gainsboro;
+}
+
+.values{
+    font-style: italic;
+    background-color: gainsboro;
+}
