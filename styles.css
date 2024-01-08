@@ -1,5 +1,9 @@
 html{
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    border: 2px dotted moccasin;
+    background-color: lightsteelblue;
 }
 
 th, td, tbody{
@@ -7,8 +11,11 @@ th, td, tbody{
     width: 200px;
 }
 
+table{
+    margin: 0 auto;
+}
 h2{
-    text-align: left;
+    text-align: center;
     color:palevioletred;
     padding-top: 20px;
     padding-bottom: 5px;
