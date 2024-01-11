@@ -1,158 +1,102 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 <html>
     <head>
-        <h1>CSS REFERENCE<h1>
+        <h1>MY WEBSITE STYLE GUIDE</h1>
         <link href="styles.css" type="text/css" rel="stylesheet">
+        <nav class="button">
+                <h3><a class="home" href="#colors">Colors</a></h3>
+                <h3><a class="home" href="#fonts">Fonts</a></h3>
+                <h3><a class="home" href="#styles">Text Styles</a></h3>
+        </nav>
     </head>
     <body>
-        <h2 class='text'>Text</h2>
-            <table class="heading">
-                <th scope="col">PROPERTY</th>
-                <th scope="col">DESCRIPTION</th>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <th class="property">font-family</th>
-                        <td>specify typeface to be used</td>
-                    </tr>
-                    <tr>
-                        <th class="property">font-size</th>
-                        <td>specify size for the font</td>
-                    </tr>
-                    <tr>
-                        <th class="property">font-weight</th>
-                        <td>controls how bold/thin text appears</td>
-                        <tr>
-                            <th class="val" colspan="2">Font-weight Values</th>
-                        </tr>
-                    </tr>
-                    <tr>
-                        <td class="values">Bold</td>
-                        <td class="values">makes font bold</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Normal</td>
-                        <td class="values">default value; makes font normal</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Lighter</td>
-                        <td class="values">makes one font weight lighter</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Bolder</td>
-                        <td class="values">makes one font weight bolder</td>
-                    </tr>    
-                    <tr>
-                        <th class="property">font-style</th>
-                        <td>specify typeface to be used</td>
-                        <tr>
-                            <th class="val" colspan="2">Font-style Values</th>
-                        </tr>
-                    </tr>
-                    <tr>
-                        <td class="values">Normal</td>
-                        <td class="values">makes text appear in normal style</td>
-                    <tr>
-                    <tr>
-                        <td class="values">Italic</td>
-                        <td class="values">text appears in italic</td>
-                    </tr>   
-
-                    <tr>
-                        <th class="property">text-align</th>
-                        <td>specify alignment of text</td>
-                        <tr>
-                            <th class="val" colspan="2">Text-align Values</th>
-                        </tr>
-                    </tr>
-                    <tr>
-                        <td class="values">Left</td>
-                        <td class="values"> align to left side</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Right</td>
-                        <td class="values"> align to right side</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Center</td>
-                        <td class="values"> centers text</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Justify</td>
-                        <td class="values">takes up full width, aligns both left and right side</td>
-                    </tr>
-                    <tr>
-                        <th class="property">text-transform</th>
-                        <td>change the case of text</td>
-                        <tr>
-                            <th class="val" colspan="2">Text-transform Values</th>
-                        </tr>
-                    </tr>
-                    <tr>
-                        <td class="values">Uppercase</td>
-                        <td class="values"> text appear in uppercase</td>
-                    </tr>
-                    <tr>
-                        <td class="values">Lowercase</td>
-                        <td class="values"> text appear in lowercase</td>
-                    </tr>     
-                </tbody>
-            </table>
-        <h2 class='color'>Colors</h2>
-            <table class="heading">
-                <th scope="col">PROPERTY</th>
-                 <th scope="col">DESCRIPTION</th>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <th class="property">color</th>
-                        <td>specify color of text</td>
-                    </tr>
-                    <tr>
-                        <th class="property">background-color</th>
-                        <td>style an elements background color</td>
-                    </tr>
-                    <tr>
-                        <th class="property">opacity</th>
-                        <td>measures how transparent an element is</td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2 class='spacing'>Layout</h2>
-            <table class="heading">
-                <th scope="col">PROPERTY</th>
-                <th scope="col">DESCRIPTION</th>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <th class="property">letter-spacing</th>
-                        <td>set horizontal spacing between individual character of an element</td>
-                    </tr>
-                    <tr>
-                        <th class="property">word-spacing</th>
-                        <td>sets space between words</td>
-                    </tr>
-                    <tr>
-                        <th class="property">line-height</th>
-                        <td>set vertical space between lines of text</td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2 class='images'>Images</h2>
-            <table class="heading">
-                <th scope="col">PROPERTY</th>
-                <th scope="col">DESCRIPTION</th>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <th class="property">background-image</th>
-                        <td>make background of an image</td>
-                    </tr>
-            </tbody>
-            </table>
+        <div class="box" id="colors">
+            <h2 class="category">Colors</h2>
+            <h4 class="main"><a href="#top">Main</a></h4>
+        </div>
+                <div class="border">
+                    <div class="coral">
+                        <p class="name">Sunlit Coral</p>    
+                        <p class="hex">#f9ddcf</p>
+                        <p class="rgb">(249,221,207)</p>
+                    </div>
+                    <div class="lightorange">
+                        <p class="name">Light Orange</p>    
+                        <p class="hex">#eabcac</p>
+                        <p class="rgb">(234,188,172)</p>
+                    </div>
+                    <div class="oldrose">
+                        <p class="name">Old Rose</p>    
+                        <p class="hex">#c08081</p>
+                        <p class="rgb">(192,128,129)</p>
+                    </div>
+                    <div class="lightwater">
+                        <p class="name">Bristol Light Water</p>    
+                        <p class="hex">#b9c5c5</p>
+                        <p class="rgb">(185,197,197)</p>
+                    </div>
+                    <div class="taupe">
+                        <p class="name">Taupe</p>    
+                        <p class="hex">#baa68e</p>
+                        <p class="rgb">(186,166,142)</p>
+                    </div>
+                </div>
+            </div>
+        <div class="box" id="fonts">
+            <h2 class="category">Fonts</h2>
+            <h4 class="main"><a href="#top">Main</a></h4>
+        </div>
+            <div class="borderfont">
+                <div class="verdana">
+                    <h5 class="font">Verdana</h5>
+                    <p class="normal"> Let us love winter, for it is the spring of genius</p>
+                    <p class="bold"> Let us love winter, for it is the spring of genius</p>
+                    <p class="italic"> Let us love winter, for it is the spring of genius</p>
+                </div>
+                <div class="pacifico">
+                    <h5 class="font">Pacifico</h5>
+                    <p class="normal"> Let us love winter, for it is the spring of genius</p>
+                    <p class="bold"> Let us love winter, for it is the spring of genius</p>
+                    <p class="italic"> Let us love winter, for it is the spring of genius</p>
+                </div>
+                <div class="salsa">
+                    <h5 class="font">Salsa</h5>
+                    <p class="normal"> Let us love winter, for it is the spring of genius</p>
+                    <p class="bold"> Let us love winter, for it is the spring of genius</p>
+                    <p class="italic"> Let us love winter, for it is the spring of genius</p>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="styles">
+            <h2 class="category">Text Styles</h2>
+            <h4 class="main"><a href="#top">Main</a></h4>
+        </div>
+            <div class="borderstyle">
+                <div>
+                    <h1 class="heading">H1: Main Page Heading</h1>
+                    <ul>
+                        <li>font-weight: bold</li>
+                        <li>font-size: 30px</li>
+                        <li>font-family: Verdana</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="subheading">H2: Subheading</h2>
+                    <ul>
+                        <li>font-weight: regular</li>
+                        <li>font-size: 25px</li>
+                        <li>font-family: Salsa</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="paragraph">Paragraph</h1>
+                    <ul>
+                        <li>font-weight: regular</li>
+                        <li>font-size: 20px</li>
+                        <li>font-family: Pacifico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
