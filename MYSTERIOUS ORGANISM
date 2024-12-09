@@ -21,7 +21,7 @@ const pAequorFactory = (number, array) => {
 
     //simulate mutation
     mutate() {
-      const dnaMutate = Math.floor(math.random() * this.dna.length);
+      const dnaMutate = Math.floor(Math.random() * this.dna.length);
       let mutateBase = returnRandBase();
       while (mutateBase === this.dna[dnaMutate]) {
         mutateBase = returnRandBase();
